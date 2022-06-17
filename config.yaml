@@ -1,0 +1,13 @@
+name: "Weewx Server"
+description: "Weewx Server with Interceptor and MQTT support."
+version: "0.1"
+slug: weewx
+init: false
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+map:
+  - config:rw
