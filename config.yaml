@@ -11,3 +11,4 @@ arch:
   - i386
 map:
   - config:rw
+image: "stefa168/weewx-{arch}"
