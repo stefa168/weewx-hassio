@@ -1,0 +1,21 @@
+version: '3'
+services:
+  weewx:
+    container_name: weewx
+    image: 'stefa168/weewx-armv7:0.1.1c'
+    ports:
+      - 8125:8125
+    volumes:
+      - "home:/home"
+      - "./weewx_dir/:/config"
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto
+    volumes:
+      - ./mosquitto_dir/:/mosquitto/:rw
+    ports:
+      - 1883:1883
+      - 9001:9001   
+
+volumes:
+  home:
