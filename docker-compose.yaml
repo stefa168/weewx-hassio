@@ -8,6 +8,9 @@ services:
     volumes:
       - "home:/home"
       - "./weewx_dir/:/config"
+    depends_on:
+      - mosquitto
+    stop_grace_period: 1m
   mosquitto:
     container_name: mosquitto
     image: eclipse-mosquitto
