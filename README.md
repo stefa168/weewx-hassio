@@ -11,7 +11,7 @@ I won't be able to provide any help configuring those.
 
 ## Why ecowitt2mqtt?
 
-I moved away from weewx for two reasons:
+I moved away from weewx for three reasons:
 
 - It didn't offer some functionalities that I needed (mainly more frequent data publishing)
 - Direct MQTT integration with HA without having to listen for the topics manually
