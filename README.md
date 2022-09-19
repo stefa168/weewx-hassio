@@ -15,4 +15,4 @@ I moved away from weewx for two reasons:
 
 - It didn't offer some functionalities that I needed (mainly more frequent data publishing)
 - Direct MQTT integration with HA without having to listen for the topics manually
-- It appeared to me that "outsiders" [aren't welcome on the google forums](https://groups.google.com/g/weewx-user/c/RGOr9F-sFgM), as they deleted my messages without any specific reason.
+- It appeared to me that "outsiders" [aren't welcome on the google groups list](https://groups.google.com/g/weewx-user/c/RGOr9F-sFgM), as they deleted my messages without any specific reason.
